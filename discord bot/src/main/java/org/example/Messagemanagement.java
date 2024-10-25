@@ -6,14 +6,14 @@ import java.sql.SQLException;
 
 public class Messagemanagement extends ListenerAdapter {
 
-    dbconnect dbcon = new dbconnect(); // Crear una instancia de dbconnect
+    dbconnect dbcon = new dbconnect();
 
     @Override
     public void onMessageReceived(MessageReceivedEvent event) {
         if (event.getAuthor().isBot()) {
-            return;  // Ignora los mensajes de otros bots (incluido el propio bot)
+            return;  // Esto hace que ignore los mensajes de otros bots, incluido el mismo.
         }
-        // Imprimir el autor y el canal para verificar que está recibiendo el mensaje
+        // Aqui sacamos la informacion del usuario
         String userId = event.getAuthor().getId();
         String message = event.getMessage().getContentRaw();
         String userName = event.getAuthor().getName();
@@ -21,7 +21,7 @@ public class Messagemanagement extends ListenerAdapter {
         System.out.println("Canal: " + event.getChannel().getName());
         System.out.println("Contenido del mensaje: " + event.getMessage().getContentRaw());
 
-        // Insertar los datos en la base de datos
+        // Llamamos la funcion para insertar los datos en la DB
         dbcon.UpdateUserContext(userId, userName, message);
 
 
