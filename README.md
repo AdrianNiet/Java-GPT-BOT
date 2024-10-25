@@ -26,7 +26,29 @@ La clase que combina el mensaje del usuario con el contexto es [addMessageContex
 
 Si todo ha funcionado bien, el metodo [gpt_API](https://github.com/AdrianNiet/Java-GPT-BOT/blob/main/discord%20bot/src/main/java/org/example/gpt_api.java) creara el JSON para hacer la llamada a la API y nos devolvera el resultado que publicara el bot en Discord.
 
-## Ejemlpo de funcionamiento.
+## Instalar
+
+Te recomiendo usar el IDE de Intellij por ahora almenos.
+
+Rellena los siguentes campos en:
+
+Tu usuario y contraseña de PostgreSQL en: [UpdateUserContext](https://github.com/AdrianNiet/Java-GPT-BOT/blob/main/discord%20bot/src/main/java/org/example/dbconnect.java):
+
+![image](https://github.com/user-attachments/assets/ec7c2d8a-caa4-495d-b0df-c5f90f36d500)
+
+Tu usuario y contraseña de PostgreSQL en: [checkAndCreateTable](https://github.com/AdrianNiet/Java-GPT-BOT/blob/main/discord%20bot/src/main/java/org/example/dbcheck.java):
+
+![image](https://github.com/user-attachments/assets/b3347ab0-4da3-4314-b05f-4fab38badd0e)
+
+Tu key de la API de GPT: [gpt_API](https://github.com/AdrianNiet/Java-GPT-BOT/blob/main/discord%20bot/src/main/java/org/example/gpt_api.java):
+
+![image](https://github.com/user-attachments/assets/90a0aa1a-e19c-4fab-a26a-14c22489112a)
+
+Tu key del bot creado en [Discord Development portal](https://discord.com/developers/docs/intro) en [Main](https://github.com/AdrianNiet/Java-GPT-BOT/blob/main/discord%20bot/src/main/java/org/example/Main.java):
+
+![image](https://github.com/user-attachments/assets/94111590-2410-46e3-850e-795ff176fd03)
+
+## Ejemplo de funcionamiento.
 
 ![image](https://github.com/user-attachments/assets/065fe582-7b1f-4b9e-87a3-8cc2a43209d5)
 
