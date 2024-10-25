@@ -13,8 +13,8 @@ public class dbcheck {
         Statement stmt = null;
 
         String url = "jdbc:postgresql://localhost:5432/gptdb";
-        String user = "postgres";
-        String password = "planta";
+        String user = "";
+        String password = "";
 
         try {
             //Establecemos conexion
