@@ -8,6 +8,10 @@ Es mas comunmente utilizado por Gamers, sin embargo algunas escuelas pueden lleg
 
 Este bot esta contruido en Java y se conecta a una Base de datos en PostgreSQL para almacenar los mensajes del usuario y tener cierta memoria.
 
+## IDE Utilizado.
+
+Intellij, principalmente porque Visual Studio Code me dio problemas para usar Java.
+
 ## Funcionamiento:
 
 El bot esta construido en Java, por lo que he dividido las distintas funciones en clases para que fuese facil y sencillo de entender y trabajar.
