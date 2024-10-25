@@ -26,6 +26,11 @@ La clase que combina el mensaje del usuario con el contexto es [addMessageContex
 
 Si todo ha funcionado bien, el metodo [gpt_API](https://github.com/AdrianNiet/Java-GPT-BOT/blob/main/discord%20bot/src/main/java/org/example/gpt_api.java) creara el JSON para hacer la llamada a la API y nos devolvera el resultado que publicara el bot en Discord.
 
+## Ejemlpo de funcionamiento.
+
+![image](https://github.com/user-attachments/assets/065fe582-7b1f-4b9e-87a3-8cc2a43209d5)
+
+
 
 
 
