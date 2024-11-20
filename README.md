@@ -50,7 +50,7 @@ Tu key del bot creado en [Discord Development portal](https://discord.com/develo
 
 ## Ejemplo de funcionamiento.
 
-![image](https://github.com/user-attachments/assets/065fe582-7b1f-4b9e-87a3-8cc2a43209d5)
+![image](https://github.com/user-attachments/assets/ef5e3e3f-293c-44ee-8614-49380a8dbe20)
 
 
 
