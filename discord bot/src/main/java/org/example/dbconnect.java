@@ -44,7 +44,7 @@ public class dbconnect {
                 //If en el caso de que lleguemos al maximo de contexto.
                 //Esta parte no tiene else porque aun no se que hare con el contexto sobrante.
                 //Puede que haga una llamada a la api y que haga un resumen del contexto.
-                if (limite = false){
+                if (limite == false){
                 String updateQuery = "INSERT INTO users (user_id, user_name, context) VALUES (?, ?, ?)" +
                         "ON CONFLICT (user_id) DO UPDATE SET context = users.context || E'' || EXCLUDED.context";
                 PreparedStatement updateStmt = conn.prepareStatement(updateQuery);
